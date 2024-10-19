@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profileStyle.css">
+</head>
+<body>
+    <div class="header">
+        <nav class="top-nav">
+            <div class="nav-items">
+                <a href="../HomePage/homePageTest.html">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="dropdown">
+                <!-- <a href=""><img src="user-profile.svg" alt="Avatar" class="avatar"></a> -->
+                <img src="user-profile.svg" alt="Avatar" class="avatar">
+                <div class="dropdown-content">
+                    <a href="">Settings</a>
+                    <a href="../PersonalizedReports/personalReport.html">Personalized Reports</a>
+                    <a href="../HomePage/homePageTest.html">Logout</a>
+                </div>
+            </div>
+            <!-- <a href="">Username</a>             -->
+        </nav>
+    </div>
+    <section class="content">
+        <div class="content-container">
+            <div class="sidebar">
+                <nav class="sidebar-nav">
+                    <div class="searchbar">
+                        <input type="text" placeholder="Search..">
+                    </div>
+                    <div class="setting">
+                        <a class="active" href="#qaccess">Quick Access</a>
+                        <p>User Settings</p>
+                        <a href="#account">Account</a>
+                        <ul>
+                            <li>Profile</li>
+                            <li>Avatar</li>
+                            <li>User Name</li>
+                        </ul>
+                        <a href="#privacy">Privacy</a>
+                        <ul>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                        </ul>
+                        <p>App Settings</p>
+                        <a href="#appearance">Appearance</a>
+                        <ul>
+                            <li>Theme</li>
+                            <li>Icon</li>
+                        </ul>
+                        <a href="#accessibility">Accessibility</a>
+                        <ul>
+                            <li>Text-To-Speech</li>
+                            <li>Saturation</li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="main-container">
+                <div class="main">
+                    <div class="profile-large">
+                        <img src="user-profile.svg" alt="Avatar" class="avatar">
+                        <p>Welcome, <span>user</span>!</p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="quick-access">
+                    <h2>Quick Access</h2>
+                    <ul>
+                        <li>Change Avatar</li>
+                        <button class="upload">Upload Avatar</button>
+                        <button class="remove">Remove Avatar</button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

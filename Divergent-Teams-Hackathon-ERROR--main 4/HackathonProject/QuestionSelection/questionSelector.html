@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="QuestionStyles.css">
+    <title>Question Selector</title>
+</head>
+<body>
+    <div class="header">
+        <nav class="top-nav">
+            <div class="nav-items">
+                <a href="../HomePage/homePageTest.html">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="dropdown">
+                <img src="../PersonalizedReports/user-profile.svg" alt="Avatar" class="avatar">
+                <div class="dropdown-content">
+                    <a href="../Settings/userprofile.html">Settings</a>
+                    <a href="">Personalized Reports</a>
+                    <a href="../HomePage/homePageTest.html">Logout</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <h1>Select Question</h1>
+        <label for="difficulty">Choose Topic:</label>
+        <select id="difficulty">
+            <option value="easy">Algebra</option>
+            <option value="medium">Graphs</option>
+            <option value="hard">Trig</option>
+            <option value="quiz">Quiz</option>
+            
+        </select>
+        <div class="cont">
+            <button id="get-question">Get Question</button>
+        </div>
+        <h2>Your Question:</h2>
+        <p id="question"></p>
+
+        <div id="answer-section" style="display:none;">
+            <input type="text" id="user-answer" placeholder="Type your answer here">
+            <button id="submit-answer">Submit Answer</button>
+        </div>
+
+        <p id="feedback"></p>
+        <div id="result" style="display: none;"></div>
+
+    </div>
+
+    <script src="questionSelector.js"></script>
+</body>
+</html>
+
+
